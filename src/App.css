@@ -106,6 +106,7 @@ button:hover{
   font-size: 15px;
 }
 
-h1{
+h1, p{
   color:rgb(63, 120, 101);
 }
+

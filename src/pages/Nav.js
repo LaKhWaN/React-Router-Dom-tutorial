@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom";
-import { useContext } from "react";
-import { AppContext } from "../App";
 
 export const Nav = () => {
-  const { username } = useContext(AppContext);
   return (
     <div className="navbar">
       <Link className="navbar_ele" to="/">
@@ -16,7 +13,7 @@ export const Nav = () => {
         About
       </Link>
       <Link className="navbar_ele" to="/profile">
-        {username}
+        Anybody
       </Link>
     </div>
   );
